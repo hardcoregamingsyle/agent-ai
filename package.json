@@ -1,0 +1,16 @@
+{
+  "name": "agentai",
+  "private": true,
+  "version": "2.0.1",
+  "type": "module",
+  "packageManager": "bun@1.2.10",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "type-check": "tsc -b --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "preview": "vite preview",
+    "deploy:selfhosted": "bash scripts/deploy-selfhosted.sh"
+  }
+}
